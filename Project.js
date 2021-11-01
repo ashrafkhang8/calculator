@@ -23,7 +23,7 @@ function sum() {
         document.getElementById('demo').innerHTML = `The area of ${area} : ${(1/2)*l*b}`;
 
     } else if(area == 'square' || area == 'Square'){
-        document.getElementById('demo').innerHTML = `The area of ${area} : ${l**2}`;
+        document.getElementById('demo').innerHTML = `The area of ${area} : ${l*l}`;
         
         
         
