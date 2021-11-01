@@ -22,7 +22,12 @@ function sum() {
     } else if (area == 'triangle' || area == 'Triangle') {
         document.getElementById('demo').innerHTML = `The area of ${area} : ${(1/2)*l*b}`;
 
-    } else {
+    } else if(area == 'square' || area == 'Square'){
+        document.getElementById('demo').innerHTML = `The area of ${area} : ${4*l}`;
+        
+        
+        
+    }else{
         console.log('false')
         document.getElementById('demo').innerHTML = `Not found fill Currect Values`;
     }
